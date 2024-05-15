@@ -1,0 +1,19 @@
+/* FOOTER */
+
+footer, footer > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer {
+    background: var(--bg-footer);
+    margin-top: auto;
+    color: white;
+    padding: 1rem 9rem;
+}
+
+footer > div {
+    height: 75px;
+    gap: 20px;
+}
