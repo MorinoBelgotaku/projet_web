@@ -2,8 +2,8 @@
     --header: #506a55;
     --bg-footer: rgba(60,63,62);
     --bg-container: #5d5d4e;
-    --bg-image: url("/page/nier_automata/img/bg-3.jpg");
-    --title-bg-game-img: url("/page/nier_automata/img/title_bg_game.jpg");
+    --bg-image: url("./page/nier_automata/img/bg-3.jpg");
+    --title-bg-game-img: url("./page/nier_automata/img/title_bg_game.jpg");
     --title-bg-game: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),var(--title-bg-game-img);
     --bg-sommaire: rgb(38, 51, 39);
     --bg-personnages-image-nom: grey;
