@@ -42,7 +42,7 @@ aside {
     flex-direction: column;
     background: var(--bg-aside);
     color: white;
-    width: 300px;
+    width: 250px;
 }
 
 .sommaire {
