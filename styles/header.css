@@ -9,7 +9,6 @@ header {
     padding-left: 5rem;
     padding-right: 5rem;
     box-shadow: 0px 0px 1rem rgba(0,0,0,0.6);
-    border: 1px solid #374b31;
     border-radius: 1.2rem;
     z-index: 9999;
     transition: .2s;
@@ -69,7 +68,6 @@ nav > ul > li {
     position: absolute;
     padding: 0.4rem;
     background:var(--bg-header);
-    border: 1px solid #324235;
     border-top: none;
     border-radius: 0 0 1.2rem 1.2rem;
     top: 4.7rem;
