@@ -48,11 +48,8 @@ aside {
 .sommaire {
     position: sticky;
     top: 75px;
-    background-color: var(--bg-sommaire);
     margin: 10px;
     padding: 8px 8px 16px;
-    border-radius: 10px 0 0 10px;
-    box-shadow: 0px 0px 0.3rem rgba(0,0,0,0.6);
 }
 
 .sommaire > h2 {
@@ -69,12 +66,11 @@ aside {
     color: white;
 }
 
-.sommaire > ul {
+.sommaire > ol {
     padding-left: 1rem;
-    list-style-type: disc;
 }
 
-.sommaire > ul > li {
+.sommaire > ol > li {
     margin-bottom: 0.5rem;
 }
 

@@ -22,13 +22,13 @@ footer > div {
     gap: 20px;
 }
 
-.w3c {
+footer a {
     color: white;
     text-decoration: none;
     transition: .2s;
 }
 
-.w3c:hover {
+footer a:hover {
     text-decoration: underline;
     transition: .2s;
 }

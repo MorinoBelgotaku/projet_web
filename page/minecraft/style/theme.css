@@ -23,12 +23,11 @@
     --bg-header: #265214;
     --header-bg-link: #3A791C;
     --bg-footer: #13260E;
-    --bg-container: #3A791C;
+    --bg-container: #265214;
     --bg-image: url("../page/minecraft/img/bg.jpg");
     --title-bg-game-img: url("../page/minecraft/img/title_bg_game.jpg");
     --title-bg-game: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),var(--title-bg-game-img);
     --title-bg: center no-repeat var(--title-bg-game);
     --bg-aside: #2F2111;
-    --bg-sommaire: #265214;
     --bg-personnages-image-nom: #4E5963;
 }

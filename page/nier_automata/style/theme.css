@@ -14,6 +14,5 @@
     --title-bg-game: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),var(--title-bg-game-img);
     --title-bg: center no-repeat var(--title-bg-game);
     --bg-aside: #4E5963;
-    --bg-sommaire: #353C46;
     --bg-personnages-image-nom: #4E5963;
 }
