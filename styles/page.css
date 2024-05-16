@@ -144,7 +144,10 @@ article > div > p {
     background-color: var(--bg-personnages-image-nom);
     overflow: clip;
     width: 150px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .personnages-image {
@@ -153,7 +156,7 @@ article > div > p {
     margin: 20px auto;
     display: block;
     transition: .1s;
-    filter: drop-shadow(0px 0px 0.3rem rgba(0,0,0,0.6));
+    filter: drop-shadow(0px 0px 0.2rem rgba(0,0,0,0.6));
     cursor: zoom-in;
 }
 
