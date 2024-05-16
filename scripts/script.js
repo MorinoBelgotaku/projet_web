@@ -13,7 +13,7 @@ function header_scroll () {
         header.style.borderRadius = "1.2rem";
         header.style.position = "static";
         header.style.top = "none";
-        drop_down.style.top = "4.7rem";
+        drop_down.style.top = "4.5rem";
     }
   }
 
