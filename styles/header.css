@@ -70,7 +70,7 @@ nav > ul > li {
     background:var(--bg-header);
     border-top: none;
     border-radius: 0 0 1.2rem 1.2rem;
-    top: 4.7rem;
+    top: 4.5rem;
 }
 
 .drop-down > ul > li:first-child {
