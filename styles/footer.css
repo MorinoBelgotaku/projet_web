@@ -17,3 +17,15 @@ footer > div {
     height: 75px;
     gap: 20px;
 }
+
+.w3c {
+    color: #0f722d;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.w3c:hover {
+    color: #30643f;
+    text-decoration: underline;
+    transition: .2s;
+}
