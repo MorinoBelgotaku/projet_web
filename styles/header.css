@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--header);
+    background: var(--bg-header);
     margin: 1rem 2rem 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -17,7 +17,7 @@ header {
 
 header > a {
     text-decoration: none;
-    color: black;
+    color: #D2D6DC;
 }
 
 nav {
@@ -48,7 +48,7 @@ nav > ul > li > a, .drop-down > ul > li > a {
 
 nav > ul > li > a:hover {
     transition: .2s;
-    background-color: #324235;
+    background-color: var(--header-bg-link);
 }
 
 nav > ul > li {
@@ -68,7 +68,7 @@ nav > ul > li {
     visibility: hidden;
     position: absolute;
     padding: 0.4rem;
-    background:var(--header);
+    background:var(--bg-header);
     border: 1px solid #324235;
     border-top: none;
     border-radius: 0 0 1.2rem 1.2rem;
