@@ -10,10 +10,6 @@ html, body {
     height: fit-content;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body > div {
     visibility: hidden;
 }
