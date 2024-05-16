@@ -122,7 +122,12 @@ article > h2 {
 
 article > div > p {
     text-align: justify;
-    margin-bottom: 0.3rem
+    margin-bottom: 1.5rem
+}
+
+article a {
+    color: #8b9cac;
+    text-decoration: none;;
 }
 
 /* Personnages */
