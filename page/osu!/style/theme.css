@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Amethysta';
+    src: url('../assets/fonts/Amethysta-Regular.ttf');
+}
+
+:root{
+    --font: 'Arial';
+    --bg-header: #4D2CAA;
+    --header-bg-link: #5340D7;
+    --bg-footer: #23143D;
+    --bg-container: #23143D;
+    --bg-image: url("../page/osu!/img/bg.jpg");
+    --title-bg-game-img: url("../page/osu!/img/title_bg_game.jpg");
+    --title-bg-game: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),var(--title-bg-game-img);
+    --title-bg: center no-repeat var(--title-bg-game);
+    --bg-aside: #5340D7;
+    --bg-personnages-image-nom: #4E5963;
+    --article-link: #A436D9;
+}
