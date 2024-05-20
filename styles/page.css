@@ -115,7 +115,7 @@ article > div > p {
 }
 
 article a {
-    color: #8b9cac;
+    color: var(--article-link);
     text-decoration: none;;
 }
 
