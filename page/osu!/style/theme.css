@@ -11,9 +11,11 @@
     --bg-container: #23143D;
     --bg-image: url("../page/osu!/img/bg.jpg");
     --title-bg-game-img: url("../page/osu!/img/title_bg_game.jpg");
-    --title-bg-game: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),var(--title-bg-game-img);
+    --title-bg-game: linear-gradient(rgb(35, 20, 61,0.6),rgb(35, 20, 61,0.6)),var(--title-bg-game-img);
     --title-bg: center no-repeat var(--title-bg-game);
     --bg-aside: #5340D7;
     --bg-personnages-image-nom: #4E5963;
     --article-link: #A436D9;
+    --title-bg-position: center;
+    --title-bg-size: 150%;
 }
