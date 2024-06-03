@@ -11,10 +11,6 @@ html, body {
     height: fit-content;
 }
 
-body > div {
-    visibility: hidden;
-}
-
 body {
     background: center no-repeat var(--bg-image);
     background-size: cover;
