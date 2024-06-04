@@ -1,7 +1,7 @@
 :root{
     --bg-header: rgb(167, 48, 4);
     --header-bg-link: orangered;
-    --bg-footer: rgb(160, 81, 81);
+    --bg-footer: #1d1d1d;
 }
 
 *{
@@ -19,12 +19,6 @@ body {
     flex-direction: column;
 }
 
-main {
-    max-width: 100vw;
-    width: 100%;
-    height: 1500px;
-}
-
 /* BANNIERE */
 
 .banniere {
@@ -36,6 +30,7 @@ main {
     height: 500px;
     margin-top: -110px;
     box-shadow: 0 0 25px black;
+    z-index: 2;
 }
 
 .banniere > div {
@@ -63,23 +58,86 @@ main {
 
 .banniere span:hover {
     transition: .2s;
-    animation: shake 0.25s infinite;
 }
 
-@keyframes shake {
-    0% { 
-        transform: rotate(0deg); 
-    }
-    25% { 
-        transform: rotate(5deg); 
-    }
-    50% { 
-        transform: rotate(0deg); 
-    }
-    75% { 
-        transform: rotate(-5deg); 
-    }
-    100% { 
-        transform: rotate(0deg); 
-    }
+
+/* MAIN */
+
+main {
+    width: 100%;
+    padding: 2rem 5rem;
+    color: white;
+    background-color: rgb(255, 95, 36);
+}
+
+h2,h3,h4,h5,h6 {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
+}
+
+.last-wiki div {
+    display: flex;
+    gap: 2rem;
+}
+
+.last-wiki div a {
+    width: 16rem;
+    height: 9rem;
+    border: 1px solid black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    transition: .2s;
+    color: white;
+    text-decoration: none;
+}
+
+.last-wiki div a:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 5px white;
+    transition: .2s;
+}
+
+.bg-nier_automata {
+    background-image: url('../../page/nier_automata/img/bg.jpg');
+    background-size: cover;
+    transition: .2s;
+}
+
+.bg-nier_automata:hover {
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('../../page/nier_automata/img/bg.jpg');
+    transition: .2s;
+}
+
+.bg-minecraft {
+    background-image: url('../../page/minecraft/img/bg.jpg');
+    background-size: cover;
+}
+
+.bg-minecraft:hover {
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('../../page/minecraft/img/bg.jpg');
+    transition: .2s;
+}
+
+.bg-osu {
+    background-image: url('../../page/osu!/img/bg.jpg');
+    background-size: cover;
+}
+
+.bg-osu:hover {
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('../../page/osu!/img/bg.jpg');
+    transition: .2s;
+}
+
+.bg-codbo3 {
+    background-image: url('../../page/call_of_duty_black_ops_3/img/bg.jpg');
+    background-size: cover;
+}
+
+.bg-codbo3:hover {
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('../../page/call_of_duty_black_ops_3/img/bg.jpg');
+    transition: .2s;
 }
