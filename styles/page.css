@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: var(--font);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     scroll-behavior: smooth;
     scroll-margin-top: 70px;
 }
@@ -96,7 +96,7 @@ article {
     position: relative;
     top: 200px;
     left: 25px;
-    font-size: 50pt;
+    font-size: 32pt;
     width: max-content;
 }
 
