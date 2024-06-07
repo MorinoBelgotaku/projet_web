@@ -80,6 +80,7 @@ main {
 .last-wiki div {
     overflow: auto;
     user-select: none;
+    padding: 0.5rem;
 }
 
 .last-wiki div div {
