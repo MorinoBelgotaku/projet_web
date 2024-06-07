@@ -111,9 +111,13 @@ section > h2 {
     border-bottom: 1px solid white;
 }
 
-section > div > p {
+section > div > p, section > div {
     text-align: justify;
     margin-bottom: 1.5rem
+}
+
+section > div > div > ul {
+    margin: 1rem 0;
 }
 
 section > div > h3 {

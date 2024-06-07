@@ -5,16 +5,16 @@
 
 :root{
     --font: 'Amethysta';
-    --bg-header: #454F57;
+    --bg-header: #573729;
     --header-bg-link: #353C46;
-    --bg-footer: #1E2326;
-    --bg-container: #1B1E21;
+    --bg-footer: #2e1d15;
+    --bg-container: #222023;
     --bg-image: url("../page/call_of_duty_black_ops_3/img/bg.jpg");
     --title-bg-game-img: url("../page/call_of_duty_black_ops_3/img/title_bg_game.jpg");
     --title-bg-game: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),var(--title-bg-game-img);
     --title-bg: center no-repeat var(--title-bg-game);
-    --bg-aside: #4E5963;
-    --bg-personnages-image-nom: #4E5963;
-    --article-link: #8b9cac;
+    --bg-aside: #9c351a;
+    --bg-personnages-image-nom: #3a454c;
+    --article-link: #BC7726;
     --title-bg-size: cover;
 }
