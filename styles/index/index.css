@@ -10,10 +10,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
-    height: fit-content;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -65,25 +61,33 @@ body {
 
 main {
     width: 100%;
-    padding: 2rem 5rem;
     color: white;
     background-color: rgb(255, 95, 36);
 }
 
-h2,h3,h4,h5,h6 {
+.last-wiki {
+    padding: 2rem 5rem;
+}
+
+.last-wiki h2 {
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid white;
 }
 
 .last-wiki div {
-    display: flex;
-    gap: 2rem;
+    overflow: auto;
 }
 
-.last-wiki div a {
-    width: 16rem;
-    height: 9rem;
+.last-wiki div div {
+    display: inline-flex;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.last-wiki div div a {
+    width: 320px;
+    height: 180px;
     border: 1px solid black;
     display: grid;
     justify-content: center;
@@ -95,7 +99,7 @@ h2,h3,h4,h5,h6 {
     text-decoration: none;
 }
 
-.last-wiki div a:hover {
+.last-wiki div div a:hover {
     border: 1px solid white;
     box-shadow: 0 0 5px white;
     transition: .2s;
@@ -140,4 +144,35 @@ h2,h3,h4,h5,h6 {
 .bg-codbo3:hover {
     background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('../../page/call_of_duty_black_ops_3/img/bg.jpg');
     transition: .2s;
+}
+
+/* PARTENAIRES */
+
+.partenaires {
+    background-color: rgb(143, 38, 0);
+    display: grid;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+
+.partenaires > h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.partenaires > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.partenaires > div > a > img {
+    width: 6rem;
+    transition: .2s;
+}
+
+.partenaires > div > a > img:hover {
+    transition: .2s;
+    filter: drop-shadow(0 0 5px white);
 }
