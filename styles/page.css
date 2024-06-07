@@ -116,8 +116,9 @@ section > div > p, section > div {
     margin-bottom: 1.5rem
 }
 
-section > div > div > ul {
-    margin: 1rem 0;
+section > div > div > ul, section > div > ul {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 section > div > h3 {
