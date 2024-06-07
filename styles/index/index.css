@@ -65,6 +65,8 @@ main {
     background-color: rgb(255, 95, 36);
 }
 
+/* Dernier Wikis de publié */
+
 .last-wiki {
     padding: 2rem 5rem;
 }
@@ -77,6 +79,7 @@ main {
 
 .last-wiki div {
     overflow: auto;
+    user-select: none;
 }
 
 .last-wiki div div {
@@ -104,6 +107,8 @@ main {
     box-shadow: 0 0 5px white;
     transition: .2s;
 }
+
+/* Image de fond des miniatures Wiki */
 
 .bg-nier_automata {
     background-image: url('../../page/nier_automata/img/bg.jpg');
@@ -153,10 +158,13 @@ main {
     display: grid;
     justify-content: center;
     padding: 2rem 5rem;
+    width: 100%;
 }
 
 .partenaires > h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
     text-align: center;
 }
 
@@ -165,6 +173,8 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     gap: 3rem;
+    padding: 1rem;
+    border-radius: 20px;
 }
 
 .partenaires > div > a > img {
