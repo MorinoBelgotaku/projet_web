@@ -8,6 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -77,18 +78,21 @@ main {
     border-bottom: 1px solid white;
 }
 
+/* Cadre des wikis publiés */
 .last-wiki div {
     overflow: auto;
     user-select: none;
     padding: 0.5rem;
 }
 
+/* Affichage des wikis publiés */
 .last-wiki div div {
     display: inline-flex;
     gap: 2rem;
     overflow: hidden;
 }
 
+/* Liens des wikis */
 .last-wiki div div a {
     width: 320px;
     height: 180px;
